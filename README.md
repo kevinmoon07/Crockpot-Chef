@@ -1,2 +1,2 @@
-# Crockpot-Chef
+# No-Waste-Chef
 Script that utilizes front-end and back-end elements to allow a user to input ingredients and retrieve the top 3 recipe matches as defined through the spoonacular api. Using python, the returned results from the api are processed and select pieces of information, such as the 'Match Percent', 'Ingriedients', and 'Recipe URL' are output in a table format at which point the user can select which delicious dish to create!
