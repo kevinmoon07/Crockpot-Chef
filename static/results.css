@@ -1,0 +1,15 @@
+table {
+	width = 100%
+}
+
+h1 {
+	color: darkslategray;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+tr:hover {
+	background-color: lightgray;
+}

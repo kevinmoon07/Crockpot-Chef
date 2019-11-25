@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<center>
+    <title>Crockpot Chef</title>
+    <h1 class="text-center">Crockpot Chef Web Application</h1>
+    <form method = 'POST' action="/results">
+        Ingredients Input : <input type="text" name="ingredients">
+        <input type="submit">
+    </form>
+    <p>
+        This is an elementary app that utilizes the spoontacular API! <br/> <br/>
+        This application works by putting in certain ingredients that you may have, <br/>
+        then pressing on the input button. Hopefully a recipe that you enjoy will come up!
+    </p>
+
+    <h3> How to use: </h3>
+        <p>
+            Simply input your ingredients into the bar, separated by commas <br/>
+            If you don't put them in commas, something will go wrong
+
+        </p>
+</center>
+{% endblock content %}
